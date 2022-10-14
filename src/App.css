@@ -1,0 +1,59 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url();
+    /* background: linear-gradient(to right, #005c98, #505BDA); */
+}
+
+.users-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0002;
+    position: fixed;
+    display: flex;
+    backdrop-filter: blur(2px);
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+}
+
+.disable__form {
+    display: none;
+}
+
+.App__btn {
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #555A88;
+    color: white;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: transform 150ms ease box-shadow 150ms ease;
+}
+
+.App__btn:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 1rem #0005;
+    transition: transform 150ms ease box-shadow 150ms ease;
+}
+
+.App__container-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    
+}
